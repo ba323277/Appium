@@ -69,8 +69,8 @@ public class Ebay {
 						
 				driver.findElement(By.xpath("//android.widget.EditText[contains(@resource-id, 'firstname')]")).sendKeys("Balaram");
 				driver.findElement(By.xpath("//android.widget.EditText[contains(@resource-id, 'lastname')]")).sendKeys("sahoo");
-				driver.findElement(By.xpath("//android.widget.EditText[contains(@resource-id, 'email')]")).sendKeys("sahoobalaram989@gmail.com");
-				driver.findElement(By.xpath("//android.widget.EditText[contains(@resource-id, 'PASSWORD')]")).sendKeys("jayanti@1995");
+				driver.findElement(By.xpath("//android.widget.EditText[contains(@resource-id, 'email')]")).sendKeys("xyz@gmail.com");
+				driver.findElement(By.xpath("//android.widget.EditText[contains(@resource-id, 'PASSWORD')]")).sendKeys("xyz@123");
 				driver.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);
 
 				 //driver.findElement(By.xpath("//android.widget.Button[contains(@text, 'Register')]")).click();
